@@ -16,3 +16,9 @@
 
 ## SQL Solution
 <img width="598" alt="Screenshot 2024-09-21 at 13 40 27" src="https://github.com/user-attachments/assets/21c43d1b-b236-4e55-81f2-31485ce00fd4">
+
+## Note
+
+**UNION**: Removes duplicates, but can be slower because of the additional step of checking and removing duplicate rows.
+
+**UNION ALL**: Doesn’t remove duplicates, making it faster since it skips the duplicate check. 
